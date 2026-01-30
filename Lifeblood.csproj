@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lifeblood</RootNamespace>
+    <AssemblyName>Lifeblood</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Engine\Vector3.cs" />
+    <Compile Include="Engine\Camera3D.cs" />
+    <Compile Include="Engine\Shader.cs" />
+    <Compile Include="Rendering\Mesh.cs" />
+    <Compile Include="Rendering\Texture.cs" />
+    <Compile Include="Rendering\Renderer3D.cs" />
+    <Compile Include="Game\Physics3D.cs" />
+    <Compile Include="Game\Player.cs" />
+    <Compile Include="Game\WeaponDefs.cs" />
+    <Compile Include="Game\Combat.cs" />
+    <Compile Include="Game\Economy.cs" />
+    <Compile Include="Game\Settings.cs" />
+    <Compile Include="Game\Physics.cs" />
+    <Compile Include="Network\NetworkProtocol.cs" />
+    <Compile Include="Network\GameServer.cs" />
+    <Compile Include="Network\GameClient.cs" />
+    <Compile Include="Forms\MainMenu.cs" />
+    <Compile Include="Forms\Game3DWindow.cs" />
+    <Compile Include="Forms\GameWindow.cs" />
+    <Compile Include="Forms\MapEditor.cs" />
+    <Compile Include="Forms\SettingsMenu.cs" />
+  </ItemGroup>
+  
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

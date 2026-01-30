@@ -56,15 +56,6 @@ Lifeblood is a high-performance, raw FPS engine built from scratch using **nativ
 | **F1** | Builder Mode |
 | **P / L** | Save / Load Map |
 
-## 🛠️ Build & Installation
-
-### ⚠️ Important Note on `bin` Folder
-**Q: If I delete the `bin` folder, will the script work?**
-A: **Yes and No.**
--   **Yes**, the script `build.bat` will automatically **recreate** the `bin` folder and recompile the `Lifeblood.exe` game executable from the source code. The game logic will work perfectly.
--   **No**, if you had `bin/content` (Models/Textures) or `bin/mods`, they **will be lost** and `build.bat` does significant restore them (unless you have a separate backup or asset generation script).
--   **Recommendation**: Do not delete `bin` unless you are sure you have backups of your assets (`bin/content`).
-
 ## ⚙️ Configuration
 You can edit settings via the in-game **Settings Menu** or manually in `Game/Settings.cs`.
 -   **Nickname**: Set your player name.
@@ -88,4 +79,5 @@ You can edit settings via the in-game **Settings Menu** or manually in `Game/Set
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=for-the-badge&logo=kofi)](https://ko-fi.com/adiru)
 
 [![Steam](https://img.shields.io/badge/Steam-Trade-blue?style=for-the-badge&logo=steam)](https://steamcommunity.com/tradeoffer/new/?partner=1124211419&token=2utLCl48)
+
 

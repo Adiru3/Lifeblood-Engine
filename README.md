@@ -1,6 +1,6 @@
 # Lifeblood Engine
 
-**Lifeblood Engine** is a full-featured 3D PvP shooter in the style of Quake World, featuring:
+**Lifeblood Engine** is a full-featured 3D PvP shooter engine in the style of Quake World, featuring:
 - 🎮 Native 3D engine built on OpenGL
 - 🏃 Quake-style physics (bunny hopping, strafe jumping)
 - 🌐 High-quality networking code for multiplayer
@@ -87,4 +87,5 @@ You can edit settings via the in-game **Settings Menu** or manually in `Game/Set
 ### 🌍 Support Links
 [![Donatello](https://img.shields.io/badge/Support-Donatello-orange?style=for-the-badge)](https://donatello.to/Adiru3)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=for-the-badge&logo=kofi)](https://ko-fi.com/adiru)
+
 [![Steam](https://img.shields.io/badge/Steam-Trade-blue?style=for-the-badge&logo=steam)](https://steamcommunity.com/tradeoffer/new/?partner=1124211419&token=2utLCl48)

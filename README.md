@@ -31,7 +31,6 @@ Lifeblood is a high-performance, raw FPS engine built from scratch using **nativ
 -   **Wall Run**: Vector-based detection (`Dot Product`).
 
 ### 3. Lethal Gunplay & Arsenal
--   **Weapons**: Knife, Pistol, Deagle, Shotgun, AK-47, Scout, Rocket Launcher.
 -   **Stats System**: Tracks **Kills**, **Deaths**, **Damage**, **Headshot %**, **Accuracy**.
 -   **Scoreboard**: Hold `TAB` to see stats.
 -   **Crosshair**: Fully customizable CS-style crosshair (Size, Gap, Dot, Color, Alpha).
@@ -89,3 +88,4 @@ You can edit settings via the in-game **Settings Menu** or manually in `Game/Set
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=for-the-badge&logo=kofi)](https://ko-fi.com/adiru)
 
 [![Steam](https://img.shields.io/badge/Steam-Trade-blue?style=for-the-badge&logo=steam)](https://steamcommunity.com/tradeoffer/new/?partner=1124211419&token=2utLCl48)
+
